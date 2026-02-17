@@ -133,7 +133,7 @@
 
 <script type="module">
   import { GoogleGenerativeAI } from "@google/generative-ai";
-  const API_KEY = "AIzaSyCxgdQ0Dv0MCopsG8OpK3QxenRyO-3AmLM";
+  const API_KEY = "AIzaSyDKwzFaCHQjMZTBBq9w7bJb-yHeo290ug0";
   const MODEL_NAME = "gemini-2.5-flash";
   const systemInstruction = `Role: Court Assistant. You have access to several PDF files and possibly a GeoJSON map file (data.geojson). When a user refers to a "new case" or a specific document name shown in your interface, locate that specific file content to answer. When asked about courts/locations/busyness, check GeoJSON for relevant fields; if no numeric load field exists, say so.`;
 
@@ -261,6 +261,7 @@
 </script>
 </body>
 </html>
+
 
 
 
