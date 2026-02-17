@@ -1,0 +1,26 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Replace placeholder with API key
+        run: |
+          # REVERTED: Now targets index.html in the root folder
+          sed -i "s|KEY|${{ secrets.KEY }}|g" index.html
+
+      - name: Deploy to GitHub Pages 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          # REVERTED: Deploys the root folder so index.html is found immediately
+          folder: .
