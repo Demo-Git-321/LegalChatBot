@@ -133,7 +133,7 @@
 
 <script type="module">
   import { GoogleGenerativeAI } from "@google/generative-ai";
-  const API_ = "";
+  const API_AIzaSyCxgdQ0Dv0MCopsG8OpK3QxenRyO-3AmLM = "AIzaSyCxgdQ0Dv0MCopsG8OpK3QxenRyO-3AmLM";
   const MODEL_NAME = "gemini-2.5-flash";
   const systemInstruction = `Role: Court Assistant. You have access to several PDF files and possibly a GeoJSON map file (data.geojson). When a user refers to a "new case" or a specific document name shown in your interface, locate that specific file content to answer. When asked about courts/locations/busyness, check GeoJSON for relevant fields; if no numeric load field exists, say so.`;
 
@@ -223,7 +223,7 @@
     input.value = "";
     btn.disabled = true; btn.classList.add('loading');
 
-    const genAI = new GoogleGenerativeAI(API_);
+    const genAI = new GoogleGenerativeAI(API_AIzaSyCxgdQ0Dv0MCopsG8OpK3QxenRyO-3AmLM);
     const model = genAI.getGenerativeModel({ model: MODEL_NAME, systemInstruction });
 
     // send both inlineData (pdfs) and textData (geojson/json) as parts
@@ -261,4 +261,5 @@
 </script>
 </body>
 </html>
+
 
