@@ -1,0 +1,171 @@
+{
+  "type": "FeatureCollection",
+  "name": "Oman_Courts_KPI_Final",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Court Name": "مجمع المحاكم بالسيب",
+        "Active Cases": 450,
+        "Closed Cases": 3120,
+        "Daily Visitors": 280,
+        "Average Case Duration": "45 Days"
+      },
+      "geometry": { "type": "Point", "coordinates": [58.1838875, 23.6165284] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Court Name": "المحكمة الابتدائية بمسقط",
+        "Active Cases": 580,
+        "Closed Cases": 4200,
+        "Daily Visitors": 350,
+        "Average Case Duration": "38 Days"
+      },
+      "geometry": { "type": "Point", "coordinates": [58.4352678, 23.6010006] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Court Name": "مجلس الشؤون الإدارية للقضاء",
+        "Active Cases": 120,
+        "Closed Cases": 980,
+        "Daily Visitors": 85,
+        "Average Case Duration": "30 Days"
+      },
+      "geometry": { "type": "Point", "coordinates": [58.4348742, 23.5983656] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Court Name": "المحكمة الابتدائية بالعامرات",
+        "Active Cases": 210,
+        "Closed Cases": 1450,
+        "Daily Visitors": 120,
+        "Average Case Duration": "42 Days"
+      },
+      "geometry": { "type": "Point", "coordinates": [58.4759611, 23.4699568] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Court Name": "المحكمة الابتدائية ببدبد",
+        "Active Cases": 95,
+        "Closed Cases": 670,
+        "Daily Visitors": 45,
+        "Average Case Duration": "35 Days"
+      },
+      "geometry": { "type": "Point", "coordinates": [58.1240777, 23.413624] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Court Name": "المحكمة الابتدائية بسمائل",
+        "Active Cases": 140,
+        "Closed Cases": 890,
+        "Daily Visitors": 65,
+        "Average Case Duration": "40 Days"
+      },
+      "geometry": { "type": "Point", "coordinates": [57.9562863, 23.2971546] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Court Name": "المحكمة الابتدائية ببركاء",
+        "Active Cases": 320,
+        "Closed Cases": 2100,
+        "Daily Visitors": 190,
+        "Average Case Duration": "48 Days"
+      },
+      "geometry": { "type": "Point", "coordinates": [57.9193834, 23.6609577] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Court Name": "المحكمة الابتدائية بالرستاق",
+        "Active Cases": 280,
+        "Closed Cases": 1850,
+        "Daily Visitors": 160,
+        "Average Case Duration": "50 Days"
+      },
+      "geometry": { "type": "Point", "coordinates": [57.4282897, 23.4367624] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Court Name": "المحكمة الابتدائية بالسويق",
+        "Active Cases": 190,
+        "Closed Cases": 1300,
+        "Daily Visitors": 110,
+        "Average Case Duration": "44 Days"
+      },
+      "geometry": { "type": "Point", "coordinates": [57.4144657, 23.8260224] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Court Name": "المحكمة الابتدائية بصحم",
+        "Active Cases": 240,
+        "Closed Cases": 1600,
+        "Daily Visitors": 130,
+        "Average Case Duration": "46 Days"
+      },
+      "geometry": { "type": "Point", "coordinates": [56.978086, 24.04843] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Court Name": "مجمع المحاكم بنزوى",
+        "Active Cases": 410,
+        "Closed Cases": 2900,
+        "Daily Visitors": 250,
+        "Average Case Duration": "41 Days"
+      },
+      "geometry": { "type": "Point", "coordinates": [57.5814432, 22.8609317] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Court Name": "المحكمة الابتدائية بسمد الشأن",
+        "Active Cases": 85,
+        "Closed Cases": 540,
+        "Daily Visitors": 40,
+        "Average Case Duration": "33 Days"
+      },
+      "geometry": { "type": "Point", "coordinates": [58.1675361, 22.8348013] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Court Name": "المحكمة الابتدائية بصور",
+        "Active Cases": 310,
+        "Closed Cases": 2200,
+        "Daily Visitors": 180,
+        "Average Case Duration": "47 Days"
+      },
+      "geometry": { "type": "Point", "coordinates": [59.0886635, 22.583654] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Court Name": "المحكمة الابتدائية بجعلان",
+        "Active Cases": 160,
+        "Closed Cases": 1100,
+        "Daily Visitors": 90,
+        "Average Case Duration": "39 Days"
+      },
+      "geometry": { "type": "Point", "coordinates": [59.2796758, 22.0833943] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Court Name": "مجمع محاكم صحار",
+        "Active Cases": 520,
+        "Closed Cases": 3800,
+        "Daily Visitors": 310,
+        "Average Case Duration": "37 Days"
+      },
+      "geometry": { "type": "Point", "coordinates": [56.688139, 24.321082] }
+    }
+  ]
+}
